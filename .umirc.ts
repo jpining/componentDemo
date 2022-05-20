@@ -3,7 +3,7 @@
  * @version: 
  * @LastEditors: jp
  * @Date: 2022-05-19 18:37:51
- * @LastEditTime: 2022-05-19 20:12:00
+ * @LastEditTime: 2022-05-19 21:12:59
  */
 import { defineConfig } from 'dumi';
 
@@ -31,8 +31,8 @@ export default defineConfig({
       skipNodeModules: true,
     },
   },
-  base: '/componentDemo/docs-dist/',
-  publicPath: '/componentDemo/docs-dist/',
+  base: '/componentDemo/docs/',
+  publicPath: '/componentDemo/docs/',
   history: {
     type: 'hash', // 设置路由模式为 hash 模式，防止部署至 GitHub Pages 后刷新网页后出现 404 的情况发生.
   },
